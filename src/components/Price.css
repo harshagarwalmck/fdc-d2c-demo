@@ -1,0 +1,133 @@
+.Price {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: flex-start;
+	flex: none;
+	gap: 5px;
+	box-sizing: border-box;
+}
+
+.Original {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: flex-start;
+	flex: none;
+	box-sizing: border-box;
+}
+
+.Wrapper {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: none;
+	gap: 8px;
+	box-sizing: border-box;
+	padding: 5px 0px 0px;
+}
+
+.NaN {
+	color: rgb(87, 82, 77);
+	text-overflow: ellipsis;
+	font-size: 12px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	line-height: 16px;
+	text-align: left;
+}
+
+._799 {
+	color: rgb(87, 82, 77);
+	text-overflow: ellipsis;
+	font-size: 18px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	line-height: 28px;
+	text-align: left;
+	text-decoration: line-through;
+}
+
+.CentsWrapper {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: flex-start;
+	flex: none;
+	gap: 8px;
+	box-sizing: border-box;
+	padding: 5px 0px 0px;
+}
+
+.Cents {
+	color: rgb(87, 82, 77);
+	text-overflow: ellipsis;
+	font-size: 12px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	line-height: 16px;
+	text-align: left;
+	text-decoration: line-through;
+}
+
+.New {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: flex-start;
+	flex: none;
+	box-sizing: border-box;
+}
+
+.Wrapper_0001 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: none;
+	gap: 8px;
+	box-sizing: border-box;
+	padding: 5px 0px 0px;
+}
+
+.NaN_0001 {
+	color: rgb(230, 0, 76);
+	text-overflow: ellipsis;
+	font-size: 12px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	line-height: 16px;
+	text-align: left;
+}
+
+._525 {
+	color: rgb(230, 0, 76);
+	text-overflow: ellipsis;
+	font-size: 18px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	line-height: 28px;
+	text-align: left;
+}
+
+.CentsWrapper_0001 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: flex-start;
+	flex: none;
+	gap: 8px;
+	box-sizing: border-box;
+	padding: 5px 0px 0px;
+}
+
+.Cents_0001 {
+	color: rgb(230, 0, 76);
+	text-overflow: ellipsis;
+	font-size: 12px;
+	font-family: Inter, sans-serif;
+	font-weight: initial;
+	line-height: 16px;
+	text-align: left;
+}

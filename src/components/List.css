@@ -1,0 +1,68 @@
+
+
+.RootWrapperList {
+	display: grid;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	gap: 35px;
+	min-height: 100vh;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 35px 40px;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	margin-left: 40px;
+	margin-right: 40px;
+	column-gap: 40px;
+	row-gap: 40px;
+}
+
+.ProductTile {
+	grid-column: span 2;
+}
+
+.RootWrapperList > * {
+	position: static !important;
+	top: auto !important;
+	left: auto !important;
+	right: auto !important;
+	bottom: auto !important;
+}
+
+@media screen and (max-width : 839px){ 
+.RootWrapperList {
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	gap: 35px;
+	box-sizing: border-box;
+	padding: 35px 40px;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+}
+
+@media screen and (min-width : 840px) and (max-width : 1199px){ 
+.RootWrapperList {
+	position: relative;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+}
+
+@media screen and (min-width : 1200px) and (max-width : 1500px){ 
+.RootWrapperList {
+	position: relative;
+	grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+}
+
+@media screen and (min-width : 1501px) and (max-width : 2400px){ 
+.RootWrapperList {
+	position: relative;
+	grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+}
+
+
+
+
+

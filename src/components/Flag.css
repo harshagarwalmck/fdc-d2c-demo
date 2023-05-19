@@ -1,0 +1,19 @@
+.Flag {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: flex-start;
+	flex: none;
+	gap: 4px;
+	box-sizing: border-box;
+}
+
+.FlagTxt {
+	color: rgb(230, 0, 76);
+	text-overflow: ellipsis;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: initial;
+	line-height: 20px;
+	text-align: left;
+}

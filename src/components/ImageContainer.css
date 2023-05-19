@@ -1,0 +1,16 @@
+.ImageContainer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	align-self: stretch;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.Img1 {
+	width: 300px;
+	height: 170px;
+	object-fit: cover;
+}
